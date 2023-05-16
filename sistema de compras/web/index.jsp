@@ -11,7 +11,7 @@
       <div class = "container mt-4 col-lg-4">
           <div class ="card col-sm-10" >
               <div class = "card-body">
-                  <form class="form-sign" action="Validar" method="POST">
+                  <form class="form-sign" action="validar" method="POST">
                       <div class="form-group text-center">
                           <h3>Login</h3>
                           <img src="img/wizard cat.png" alt="70" width="170"/>
@@ -23,8 +23,9 @@
                       </div>
                       <div class="form-group">
                           <label>Password:</label>
+                          <input type = "text" name="txtpass" class="form-control">
                       </div>
-                      <input type="submit" name="accion" value="Ingresar" class="btn btn-primary btn_block"><input>
+                      <input type="submit" name="accion" value="Ingresar" class="btn btn-primary btn_block">
                   </form>
               </div>
           </div> 
