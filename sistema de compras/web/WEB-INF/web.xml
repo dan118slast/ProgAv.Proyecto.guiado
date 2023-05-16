@@ -6,7 +6,7 @@
     </servlet>
     <servlet>
         <servlet-name>validacion</servlet-name>
-        <servlet-class>controlador.validacion</servlet-class>
+        <servlet-class>controlador.Validar</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Controlador</servlet-name>

@@ -23,8 +23,9 @@
                       </div>
                       <div class="form-group">
                           <label>Password:</label>
+                          <input type = "text" name="txtpassword" class="form-control">
                       </div>
-                      <input type="submit" name="accion" value="Ingresar" class="btn btn-primary btn_block"><input>
+                      <input type="submit" name="accion" value="Ingresar" class="btn btn-primary btn_block">
                   </form>
               </div>
           </div> 
